@@ -41,10 +41,6 @@ function App() {
     }
   };
 
-  const handleClick = () => {
-    console.log(todo);
-  };
-
   useEffect(() => {
     const fetchData = async () => {
       const response = await getTodo();
